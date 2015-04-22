@@ -2,9 +2,6 @@ module.exports = function (grunt) {
     'use strict';
     // Project configuration
     grunt.initConfig({
-        qunit: {
-            files: ['test/**/*.html']
-        },
         watch: {
             gruntfile: {
                 files: '<%= jshint.gruntfile.src %>',
@@ -18,7 +15,6 @@ module.exports = function (grunt) {
     });
 
     // These plugins provide necessary tasks
-    grunt.loadNpmTasks('grunt-contrib-qunit');
     grunt.loadNpmTasks('grunt-contrib-watch');
 
     // Default task
