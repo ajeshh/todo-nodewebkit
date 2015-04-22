@@ -29,6 +29,6 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-jade');
 
     // Default task
-    grunt.registerTask('default', ['jshint', 'qunit']);
+    grunt.registerTask('default', []);
 };
 
