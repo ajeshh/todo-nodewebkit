@@ -4,6 +4,7 @@
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.2",
+    "grunt-contrib-jade": "^0.14.1",
     "grunt-contrib-watch": "~0.5.3"
   },
   "main": "home.html"
