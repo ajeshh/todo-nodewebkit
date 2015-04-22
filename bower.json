@@ -1,0 +1,16 @@
+{
+  "name": "todo-list",
+  "version": "0.0.0",
+  "authors": [
+    "Ajesh Shah <ajeshshah@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/assets/components",
+    "test",
+    "tests"
+  ]
+}
